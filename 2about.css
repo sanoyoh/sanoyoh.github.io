@@ -1,0 +1,95 @@
+body{
+    font-family:"遊ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color:#eee;
+    font-size:17px;
+}
+
+nav{
+    text-align:center;
+    background-color:#ddd;
+}
+
+
+nav ul li{
+    margin:0 20px;
+    display:inline-block;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#00bfff;
+    font-weight:bold;
+    text-align:center;
+}
+
+nav ul li a selected{
+    color:#000;
+}
+
+header{
+    background-image:url("bg.jpg");
+    background-position:center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom:70px
+}
+
+#logo{
+    padding:50px 10px 10px;
+    text-align:center;
+}
+
+#logo img{
+    max-width:100px;
+    border:5px solid #bbb;
+    border-radius: 100px;
+}
+
+
+#logo h1{
+  letter-spacing: 0.15em;
+  color:#fff;
+  text-shadow:1px 1px 0px #000;
+}
+
+
+.container{
+    max-width:600px;
+    margin:-100px auto 0;
+    background-color:#fff;
+}
+
+section{
+    padding:10px 20px;
+}
+
+section{
+    padding:10px 0px 20px 0px;
+    text-align: center;
+    letter-spacing: 0.15em
+}
+
+footer{
+    padding:20px 0px;
+    font-size:95%;
+    text-align: center;
+    background-color: #ccc;
+    color:#666;
+}
+
+span red{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
